@@ -8,10 +8,8 @@ https://github.com/broxsss/whatfixproject
 
 Here are prerequisite to run the test case;
 
-1.) change the chromeDriver extension from chromedriver.ex0 to chromedriver.exe 
-    in driver folder i did it because gmail don,t allow exe files.
-    
-2.) Method to run 
+ 
+1.) Method to run 
   a.)  By TestNG goto SRC/test/java
        then goto to whatfix.SelfHelpautomation.TestCases Package
        open Test case -->LoginPageSelfHelpTag_TC001.java   from above package.
