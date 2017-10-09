@@ -10,7 +10,7 @@ public class SelfHelpPage {
 
 	WebDriver driver;
 	
-	public By selfhelpbtn=By.xpath(".//*[@id='_widget_wfx_']/div/div");
+	public By selfhelpbtn=By.xpath("//*[@id='_widget_wfx_']/div/div");
 	public By iframe_selfhelp=By.xpath("//iframe[@title='Get Started with Whatfix']");
 	public By selectselfhelptxt=By.xpath("//a[@class='gwt-Anchor WFWIEW']");
 	public By txttooltipembed =By.xpath("//div[@class='WFEMFU']");

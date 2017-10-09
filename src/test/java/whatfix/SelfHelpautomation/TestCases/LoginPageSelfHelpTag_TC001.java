@@ -31,16 +31,18 @@ public class LoginPageSelfHelpTag_TC001 {
 		//instantiation for extent report
 		report=new ExtentReports(System.getProperty("user.dir")+"\\Reports\\"+Testcasename+".html");
 		logger=report.startTest("check Whatfix project");
+		
 
 		//starting the browser with url
 		driver = se.startbrowser(driver);
 		SelfHelpPage shp = new SelfHelpPage(driver);
 		driver.get(prop.getData("URL"));
 		logger.log(LogStatus.PASS, "Able to open Browser");
-
+		//Thread.sleep(5000);
+		
 		//Implicit wait for page loading
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-        se.Explicit(driver,shp.selfhelpbtn);
+	     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		 se.Explicit(driver,shp.selfhelpbtn);
 		
 
 		//Clicked self help button
