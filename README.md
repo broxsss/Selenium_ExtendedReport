@@ -24,3 +24,4 @@ plz check report and screenshot after refreshing the project.
  I have included extent report which will generate report after every run.(check report folder)   
  I have included screenshot on fail so if your test fails the screenshot will be generated. (check screenshot folder)   
  To check screenshot for failure is running fine or not you can run LoginPageSelfHelpTagfailure_TC002.java
+
