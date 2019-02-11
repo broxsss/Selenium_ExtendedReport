@@ -3,7 +3,7 @@
 Hi i have completed this project Using maven we can directly configure this project in jenkins also after pushing to git.
 I have pushed the code to my GITHUB REPO.
 
-https://github.com/broxsss/whatfixproject
+https://github.com/broxsss/Selenium_ExtendedReport
 
 Here are prerequisite to run the test case;
 
