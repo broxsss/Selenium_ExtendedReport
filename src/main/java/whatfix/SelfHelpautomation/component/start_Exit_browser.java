@@ -18,7 +18,7 @@ public class start_Exit_browser {
 	
 	public WebDriver startbrowser(WebDriver driver)
 	{
-		System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"//drivers//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","/Users/akshaykumarsaini/Desktop/chromedriver");
 		Map<String, Object> prefs = new HashMap<String, Object>();
 		prefs.put("profile.default_content_setting_values.notifications", 2);
 		ChromeOptions option = new ChromeOptions();
